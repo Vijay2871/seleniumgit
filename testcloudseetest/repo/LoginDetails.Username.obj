@@ -1,0 +1,6 @@
+#Wed Oct 02 19:58:21 NZDT 2019
+json={"id"\:"usernameTextField","dumpElementType"\:"INSTRUMENTED","x"\:26,"y"\:405,"width"\:1028,"height"\:126,"onScreen"\:true,"uniqueKeys"\:"id,hint,focused","visible"\:"true","hidden"\:"false","top"\:"true","knownSuperClass"\:"android.widget.EditText","hint"\:"Username","busy"\:"true","focused"\:"true","text"\:"","textColor"\:"0x000000","class"\:"android.widget.EditText","enabled"\:"true"}
+context=INSTRUMENTED
+page=LoginDetails
+by=xpath
+expression=//*[@text\='' and @id\='usernameTextField']

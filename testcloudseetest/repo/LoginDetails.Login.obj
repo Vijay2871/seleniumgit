@@ -1,0 +1,6 @@
+#Wed Oct 02 19:58:52 NZDT 2019
+json={"id"\:"loginButton","dumpElementType"\:"INSTRUMENTED","x"\:330,"y"\:709,"width"\:420,"height"\:126,"onScreen"\:true,"uniqueKeys"\:"id,knownSuperClass,text,class","visible"\:"true","hidden"\:"false","top"\:"true","knownSuperClass"\:"android.widget.Button","busy"\:"true","text"\:"Login","textColor"\:"0x000000","class"\:"android.widget.Button","enabled"\:"true"}
+context=INSTRUMENTED
+page=LoginDetails
+by=xpath
+expression=//*[@text\='Login' and @id\='loginButton']

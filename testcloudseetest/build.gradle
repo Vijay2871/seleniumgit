@@ -1,0 +1,37 @@
+group 'com.experitest'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+	maven {
+		url "https://cloud.experitest.com/repo/"
+	}
+}
+
+eclipse {
+    classpath {
+        downloadJavadoc = true
+    }
+}
+
+clean.dependsOn "cleanEclipse"
+build.dependsOn "eclipse"
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+    }
+}
+
+dependencies {
+	compile 'junit:junit:4.12'
+	compile 'com.experitest:seetest-client:12.9'
+	compile 'com.experitest:repo:+'
+}

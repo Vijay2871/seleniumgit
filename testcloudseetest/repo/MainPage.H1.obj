@@ -1,0 +1,6 @@
+#Wed Oct 02 20:06:46 NZDT 2019
+json={"dumpElementType"\:"WEB","x"\:20,"y"\:577,"width"\:1038,"height"\:196,"onScreen"\:true,"uniqueKeys"\:"nodeName,text,align","nodeName"\:"H1","visible"\:"true","hidden"\:"false","top"\:"true","text"\:"Your balance is\: 100.00$","align"\:"center"}
+context=WEB
+page=MainPage
+by=xpath
+expression=//*[@nodeName\='H1' and @text\='Your balance is\: 100.00$']
