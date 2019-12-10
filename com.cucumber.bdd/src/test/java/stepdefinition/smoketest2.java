@@ -14,7 +14,7 @@ public class smoketest2 {
 	
 	@Given("^Open chrome and start one day web page$")
 	public void open_chrome_and_start_one_day_web_page() throws Throwable {
-	System.setProperty("webdriver.chrome.driver","C:\\selenium\\Chromedriver\\chromedriver.exe");	
+	System.setProperty("webdriver.chrome.driver","C:\\selenium\\Chromedriver\\chromedriver_win32\\chromedriver.exe");	
 	driver =new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.1-day.co.nz/orderlist.do");
