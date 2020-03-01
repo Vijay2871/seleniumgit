@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1fb02f9-0358-4ac0-b8d8-bbe1db31e7be" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YVxBDWDXKTPTgz09XYnGJd2d2Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Cucumber java.Scenario: ">
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/functionalTests/Login.feature" />
+      <option name="GLUE" value="stepDefenitions" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="StandardBDD" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StandardBDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: " />
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1fb02f9-0358-4ac0-b8d8-bbe1db31e7be" name="Default Changelist" comment="" />
+      <created>1583041424933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583041424933</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583042043270">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="507" y="294" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1583042043270" />
+    <state width="1367" height="271" key="GridCell.Tab.0.bottom" timestamp="1583042824835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583042824835" />
+    <state width="1367" height="271" key="GridCell.Tab.0.center" timestamp="1583042824834">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583042824834" />
+    <state width="1367" height="271" key="GridCell.Tab.0.left" timestamp="1583042824834">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583042824834" />
+    <state width="1367" height="271" key="GridCell.Tab.0.right" timestamp="1583042824835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583042824835" />
+    <state width="1367" height="271" key="GridCell.Tab.1.bottom" timestamp="1583042824836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583042824836" />
+    <state width="1367" height="271" key="GridCell.Tab.1.center" timestamp="1583042824836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583042824836" />
+    <state width="1367" height="271" key="GridCell.Tab.1.left" timestamp="1583042824835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583042824835" />
+    <state width="1367" height="271" key="GridCell.Tab.1.right" timestamp="1583042824836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1367" height="271" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583042824836" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefenitions/LoginSteps.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/stepDefenitions/LoginSteps.java</url>
+          <line>10</line>
+          <properties field="testContext" class="stepDefenitions.LoginSteps" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
