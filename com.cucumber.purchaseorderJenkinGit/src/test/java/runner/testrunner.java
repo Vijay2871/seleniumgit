@@ -15,7 +15,7 @@ import managers.FileReaderManager;
 
 @CucumberOptions(features="features",
 glue="stepdefenition",
-plugin= {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber_reports/report.html"})
+plugin= {"json:target/cucumber.json"})
 public class testrunner {
 
 
