@@ -1,0 +1,23 @@
+Feature: Purchase order creation
+
+  Scenario Outline: Login check with valid credentials                 [90m# D365.feature:3[0m
+    [36mGiven [0m[36mOpen chrome and start the dynamics web page[0m
+    [36mWhen [0m[36mI enter valid "<username>" and click the ok button[0m
+    [36mThen [0m[36mI can enter the valid "<password>" and click the ok button[0m
+    [36mAnd [0m[36mI clicked the clicked the signin button to enter the dashboard[0m
+
+    Examples: 
+
+  Scenario Outline: Login check with valid credentials                      [90m# D365.feature:11[0m
+    [32mGiven [0m[32mOpen chrome and start the dynamics web page[0m                       [90m# smoketest2.open_chrome_and_start_the_dynamics_web_page()[0m
+    [32mWhen [0m[32mI enter valid "[0m[32m[1m18030625@student.agi.ac.nz[0m[32m" and click the ok button[0m [90m# smoketest2.i_enter_valid_and_click_the_ok_button(String)[0m
+    [32mThen [0m[32mI can enter the valid "[0m[32m[1m5t4rncVB[0m[32m" and click the ok button[0m           [90m# smoketest2.i_can_enter_the_valid_and_click_the_ok_button(String)[0m
+    [32mAnd [0m[32mI clicked the clicked the signin button to enter the dashboard[0m      [90m# smoketest2.i_clicked_the_clicked_the_signin_button_to_enter_the_dashboard()[0m
+
+  Scenario Outline: Creating the purchase order                                  [90m# D365.feature:13[0m
+    [36mGiven [0m[36mClick the navigation panel and accounts payable and all purchase order[0m
+    [36mThen [0m[36mclick the new purchase order[0m
+    [36mThen [0m[36mI can enter mandatory fields[0m
+    [36mThen [0m[36mclick the ok button[0m
+    [36mAnd [0m[36menter the item number[0m
+    [36mThen [0m[36msave and confirm the purchase order[0m
