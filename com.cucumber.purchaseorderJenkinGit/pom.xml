@@ -135,26 +135,7 @@
                 </executions>
             </plugin>
 
-            <plugin>
-                <groupId>com.trivago.rta</groupId>
-                <artifactId>cluecumber-report-plugin</artifactId>
-                <version>1.7.2</version>
-                <executions>
-                    <execution>
-                        <id>report</id>
-                        <phase>post-integration-test</phase>
-                        <goals>
-                            <goal>reporting</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    
-                    
-                    <expandBeforeAfterHooks>true</expandBeforeAfterHooks>
-                    <expandStepHooks>true</expandStepHooks>
-                </configuration>
-            </plugin>
+           
         </plugins>
 </build>
  
